@@ -27,7 +27,7 @@ This project was inspired and guided by **Alex The Analyst**
 
 ---
 
-### 🗂 Project Files
+### Project Files
 
 * **`layoffs.csv`**
   Raw dataset used for the analysis.
