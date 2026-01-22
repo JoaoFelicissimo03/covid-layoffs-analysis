@@ -1,6 +1,6 @@
-## 📊 COVID Layoffs Analysis (SQL)
+## COVID Layoffs Analysis (SQL)
 
-### 📌 Project Overview
+### Project Overview
 
 This project analyzes company layoffs during the COVID period using SQL.
 The focus is on data cleaning and exploratory data analysis (EDA) to identify trends across companies, industries, countries, and time.
@@ -10,18 +10,18 @@ This project was inspired and guided by **Alex The Analyst**
 
 ---
 
-### 🛠 Tools Used
+### Tools Used
 
 * SQL
 * GitHub
 
 ---
 
-### 📂 Dataset
+### Dataset
 
 * **File:** `layoffs.csv`
 * **Source:** Kaggle
-  🔗 [Dataset](https://www.kaggle.com/datasets/swaptr/layoffs-2022)
+   [Dataset](https://www.kaggle.com/datasets/swaptr/layoffs-2022)
 * **Description:**
   The dataset contains information about company layoffs, including company name, industry, country, date, and number of employees laid off.
 
@@ -49,7 +49,7 @@ This project was inspired and guided by **Alex The Analyst**
 
 ---
 
-### 🔍 Key Objectives
+### Key Objectives
 
 * Clean and prepare raw data for analysis
 * Explore patterns and trends in layoffs during COVID
@@ -57,7 +57,7 @@ This project was inspired and guided by **Alex The Analyst**
 
 ---
 
-### 🚀 Future Improvements
+### Future Improvements
 
 * Deeper time-based analysis
 * Data visualization (Power BI)
