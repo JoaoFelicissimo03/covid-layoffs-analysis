@@ -21,7 +21,7 @@ This project was inspired and guided by **Alex The Analyst**
 
 * **File:** `layoffs.csv`
 * **Source:** Kaggle
-  🔗 [https://www.kaggle.com/datasets/swaptr/layoffs-2022](https://www.kaggle.com/datasets/swaptr/layoffs-2022)
+  🔗 [Dataset](https://www.kaggle.com/datasets/swaptr/layoffs-2022)
 * **Description:**
   The dataset contains information about company layoffs, including company name, industry, country, date, and number of employees laid off.
 
