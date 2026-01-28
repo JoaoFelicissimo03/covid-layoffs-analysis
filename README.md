@@ -2,18 +2,17 @@
 
 ### Project Overview
 
-This project analyzes company layoffs during the COVID period using SQL.
-The focus is on data cleaning and exploratory data analysis (EDA) to identify trends across companies, industries, countries, and time.
+This project analyzes global company layoffs during the COVID-19 period (2020–2023) using SQL.
+It focuses on data cleaning, exploratory data analysis (EDA), and trend analysis to identify patterns across time, industries, countries, and companies.
 
-This project was inspired and guided by **Alex The Analyst**
-🔗 [@AlexTheAnalyst](https://www.youtube.com/@AlexTheAnalyst)
-
+The project applies real-world analytical techniques such as window functions, CTEs, and time-series comparisons to generate meaningful insights.
 ---
 
 ### Tools Used
 
 * SQL
 * GitHub
+* PowerBi (Next Step)
 
 ---
 
@@ -29,39 +28,63 @@ This project was inspired and guided by **Alex The Analyst**
 
 ### Project Files
 
-* **`layoffs.csv`**
-  Raw dataset used for the analysis.
+#### `layoffs.csv`
+Raw dataset used for the analysis.
 
-* **`DC_CovidLayoffs.sql`**
-  SQL script for the **data cleaning phase**, including:
+#### `DC_CovidLayoffs.sql`
+Data cleaning script, including:
+- Removing duplicate records
+- Handling missing values
+- Standardizing text fields
+- Formatting date columns
+- Preparing staging tables
 
-  * Removing duplicates
-  * Handling NULL values
-  * Standardizing columns and formats
+#### `EDA_CovidLayoffs.sql`
+Exploratory data analysis script, including:
+- Rolling and cumulative trends
+- Industry impact and recovery analysis
+- Volatility and stability classification
+  
+##### Key Analysis Areas:
+- **Time-Based Trends**
+- **Industry Analysis**
+- **Country Comparison**
+- **Company Analysis**
 
-* **`EDA_CovidLayoffs.sql`**
-  SQL script for the **exploratory data analysis phase**, exploring:
+---
 
-  * Layoffs by company
-  * Layoffs by industry
-  * Layoffs by country
-  * Layoffs over time
+### Limitations
+
+- Company workforce size is not available, limiting proportional impact analysis
+- Financial performance data is not included
+- Results are based on publicly reported layoff records
+
+All company-level interpretations are made with these constraints in mind.
 
 ---
 
 ### Key Objectives
 
-* Clean and prepare raw data for analysis
-* Explore patterns and trends in layoffs during COVID
-* Practice real-world SQL data analysis workflow
+- Apply structured SQL analysis to a real-world dataset
+- Practice data cleaning and validation techniques
+- Use CTEs and window functions for trend analysis
+- Develop analytical storytelling skills
+- Build a professional data analytics portfolio project
 
 ---
 
 ### Future Improvements
 
-* Deeper time-based analysis
-* Data visualization (Power BI)
-* Python-based analysis
-* Additional insights and metrics
+- Data visualization using Power BI
+- Interactive dashboard development
+- Predictive modeling of layoff trends
+- Analysis of impacts of layoffs in some companies.
+
+---
+
+### Author
+
+Developed by: **João Felicíssimo**  
+Aspiring Data Analyst
 
 
